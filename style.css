@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* border: 3px solid salmon; */
+}
+
+.container {
+    height: auto;
+    text-align: center;
+
+    /* border: 3px solid black; */
+}
+
+.header {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #00e1ff;
+    position: fixed;
+    top: 0;
+}
+
+.page {
+    height: 229.4vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+
+    /* border: 10px solid goldenrod; */
+}
+
+.page_navbar {
+    height: 100%;
+    width: 15%;
+    background: #4d4843;
+
+    /* border: 10px solid violet; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+
+
+    /* border: 3px solid blue; */
+}
+
+.page_midle {
+    height: 100%;
+    width: 70%;
+
+    /* border: 5px solid saddlebrown; */
+}
+
+.main {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* border: 3px solid red; */
+}
+
+.title_main {
+    padding: 10px;
+
+    /* border: 3px solid green; */
+}
+
+.para_main {
+    height: auto;
+    text-align: justify;
+    padding: 10px;
+
+    /* border: 3px solid rgb(0, 255, 174); */
+}
+
+.page_aside {
+    height: auto;
+    width: 15%;
+    background: #474d43;
+
+    /* border: 10px solid indigo; */
+}
+
+.aside {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background: #474d43;
+
+    /* border: 3px solid rgb(0, 255, 0); */
+}
+
+.footer {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #242428;
+    color: antiquewhite;
+    position: fixed;
+    bottom: 0;
+}
